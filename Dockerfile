@@ -15,6 +15,7 @@ ADD entrypoint.sh /entrypoint.sh
 
 # Commands to run
 RUN pip install -r requirements.txt
+RUN chmod +x /entrypoint.sh
 
 # Define entrypoint
 ENTRYPOINT ["/entrypoint.sh"]
