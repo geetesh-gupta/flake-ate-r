@@ -1,0 +1,11 @@
+name: "Flake8 Action"
+description: "Checks formatting using flake8"
+author: "geetesh-gupta@github.com"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "hash"
+  color: "purple"
